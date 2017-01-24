@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Title</title>
+<script type="text/javascript">
+    function myFirstFunction(){
+        //Get haircolor from user
+        var hairColor = document.getElementById('dexter').value;
+
+        // Create a message for the user to see
+        var message = 'you look lovely or handsome with ' + hairColor + 'hair!';
+
+        // Display the message for the user to see.
+        document.getElementById('output').innerHTML = message;
+    }
+</script>
+</head>
+<body>
+<input type="text" id="dexter" size="6">
+    <button type="button" onclick="myFirstFunction()">click</button>
+    <div id="output"></div>
+</body>
+<html>
