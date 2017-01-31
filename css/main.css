@@ -2,18 +2,32 @@
 accent: #2B823A
 accent: #A4A938
 */
-#banner{ width:100%;}
-#top-header {text-align: left;}
-#top-row, #middle-row { display: flex;
+#banner{
+    width:100%;
+}
+#top-header {
+    text-align: left;
+padding-bottom: 1em;
+}
+#top-row, #middle-row {
+    display: flex;
     flex-flow: wrap;
+text-align: center;
+}
 
-text-align: center; }
-#middle-row {
-    text-align: center;}
-#bottom-row { text-align: center;}
-#bottom-footer {background-color: #013220; text-align: center;}
+#middle-row,#bottom-row
+{
+    text-align: center;
+}
 
-#content{background-color: #8C2F5E; width:90%; max-width: 940px; margin: 0 auto; padding: 1em; }
+}
+#bottom-footer {
+    background-color: #013220; text-align: center;
+}
+#content{
+    background-color: #8C2F5E; width:90%; max-width: 940px; margin: 0 auto; padding: 1em;
+}
+
 .leftcol, .rightcol { width: 48%
 flex: 10 15 em;
 margin: 0.5em;}
@@ -38,20 +52,20 @@ nav a {
 }
 
 p   {
-    font-family:"Lucida Sans Unicode", sans-serif;}
-p    {
-    color:#A4A938;}
-p {
-    background-color: #013220; padding: 1em;}
-h2 {font-family: "Impact", sans-serif;
-line-height: 50%;}
-h2 {color: #A4A938;}
-footer{font-family: }
+    font-family:"Lucida Sans Unicode", sans-serif;
+    color:#A4A938;
+    background-color: #013220; padding: 1em;
+}
+h2 {
+    font-family: "Impact", sans-serif;
+line-height: 50%;
+color: #A4A938;
+
+}
+footer{font-family: serif; }
 .picture1{display:flex;
-justify-content: flex-start}
-.leftcol {
+justify-content: flex-start;}
+.leftcol, .rightcol {
 max-width:  48%;}
-.rightcol{
-max-width: 48%;}
 .bottom-row{max-width: 48%;}
 
