@@ -2,15 +2,29 @@
 accent: #2B823A
 accent: #A4A938
 */
-nav {background-color: #013220; padding:1em;}
-body{font-size: 12pt;
-font-weight: 100;
-font-family:monospace;}
-nav a {color: #A4A938;}}
+#top-row{ display: flex}
+.container{
+    display: flex;
+ }
 
-p   {font-family:"Lucida Sans Unicode", sans-serif;}
-p    {color:#A4A938;}
-p {background-color: #013220; padding: 1em;}
+nav {
+    background-color: #013220; padding: 1em;
+}
+body{
+    font-size: 12pt;
+font-weight: 100;
+font-family:monospace;
+}
+nav a {
+    color: #A4A938;
+}
+
+p   {
+    font-family:"Lucida Sans Unicode", sans-serif;}
+p    {
+    color:#A4A938;}
+p {
+    background-color: #013220; padding: 1em;}
 h2 {font-family: "Impact", sans-serif;
 line-height: 50%;}
 h2 {color: #A4A938;}
