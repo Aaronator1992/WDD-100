@@ -2,9 +2,27 @@
 accent: #2B823A
 accent: #A4A938
 */
-#top-row{ display: flex}
+#banner{ width:100%;}
+#top-header {text-align: left;}
+#top-row, #middle-row { display: flex;
+    flex-flow: wrap;
+
+text-align: center; }
+#middle-row {
+    text-align: center;}
+#bottom-row { text-align: center;}
+#bottom-footer {background-color: #013220; text-align: center;}
+
+#content{background-color: #8C2F5E; width:90%; max-width: 940px; margin: 0 auto; padding: 1em; }
+.leftcol, .rightcol { width: 48%
+flex: 10 15 em;
+margin: 0.5em;}
+
+
+
 .container{
     display: flex;
+
  }
 
 nav {
@@ -37,9 +55,3 @@ max-width:  48%;}
 max-width: 48%;}
 .bottom-row{max-width: 48%;}
 
-#top-header {text-align: left;}
-#top-row {text-align: center; }
-#middle-row {text-align: center;}
-#bottom-row { text-align: center;}
-#bottom-footer {background-color: #013220; text-align: center;}
-#content{background-color: #8C2F5E; width:90%; max-width: 940px; margin: 0 auto; padding: 1em; }
