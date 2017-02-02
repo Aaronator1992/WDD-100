@@ -89,7 +89,7 @@ footer {
 
 .leftcol,
 .rightcol {
-    padding: 1em;
+    padding-left: 2em;
     max-width: 48%;
 }
 
