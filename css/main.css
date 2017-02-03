@@ -87,9 +87,13 @@ footer {
     text-align: left;
 }
 
+.rightcol {
+    height: 400px;
+    width: 400px;
+}
+
 .leftcol,
 .rightcol {
-    padding-left: 2em;
     max-width: 48%;
 }
 
