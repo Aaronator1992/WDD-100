@@ -6,19 +6,25 @@ body {
 
 nav {
     background-color: #013220;
-    font-size: 1em;
-    padding: 0.5em;
+    font-size: 1.2em;
+    padding: 1em;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-left: 2em;
     list-style-type: none;
 }
 
 nav a {
+    padding-left: 2em;
     text-decoration: none;
     color: #A4A938;
+}
+
+a:hover {
+    color: greenyellow;
 }
 
 .box {
@@ -26,12 +32,15 @@ nav a {
 }
 
 #logo {
-    display: flex;
+    position: relative;
     float: left;
-    padding-bottom: 0.5em;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border: 0.5em color red;
 }
 
-img {
+.fullwidth {
     max-width: 100%;
 }
 
@@ -47,6 +56,7 @@ h2 {
 }
 
 footer {
+    max-height: 55px;
     background-color: #013220;
     padding: 1em;
     font-family: serif;
@@ -66,35 +76,36 @@ footer {
 
 #top-header {
     text-align: left;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 #top-row {
     display: flex;
+    flex-flow: row wrap;
     flex-direction: row;
     justify-content: flex-start;
     padding: 1em;
     text-align: right;
+    align-items: center;
 }
 
 #middle-row {
     display: flex;
+    flex-flow: row wrap;
     flex-direction: row;
     justify-content: flex-end;
     text-align: center;
     background-color: #013220;
     padding: 1em;
     text-align: left;
-}
-
-.rightcol {
-    height: 400px;
-    width: 400px;
+    align-items: center;
 }
 
 .leftcol,
 .rightcol {
-    max-width: 48%;
+    width: 100%;
+    flex: 1 0 10em;
+    margin: 0.5em;
 }
 
 #bottom-row {
@@ -102,11 +113,12 @@ footer {
 }
 
 #bottom-footer {
+    max-height: 55px;
     background-color: #013220;
-    text-align: center;
 }
 
 .icons {
     display: flex;
     justify-content: flex-end;
+    margin-top: -60px;
 }
