@@ -1,0 +1,123 @@
+body {
+    font-size: 12pt;
+    font-weight: 100;
+    font-family: monospace;
+}
+
+nav {
+    background-color: #013220;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2em;
+    list-style-type: none;
+}
+
+nav a {
+    padding-left: 2em;
+    text-decoration: none;
+    color: #A4A938;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+.box {
+    background-color: #013220;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border: 0.5em color red;
+}
+
+.fullwidth {
+    max-width: 100%;
+}
+
+p {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: #A4A938;
+}
+
+h2 {
+    font-family: "Impact";
+    line-height: 100%;
+    color: #A4A938;
+}
+
+footer {
+    max-height: 55px;
+    background-color: #013220;
+    padding: 1em;
+    font-family: serif;
+}
+
+#content {
+    /*background-color: #8C2F5E;*/
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#banner {
+    width: 100%;
+}
+
+#top-header {
+    text-align: left;
+    padding-bottom: 0em;
+}
+
+#top-row {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1em;
+    text-align: right;
+    align-items: center;
+}
+
+#middle-row {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    background-color: #013220;
+    padding: 1em;
+    text-align: left;
+    align-items: center;
+}
+
+.leftcol,
+.rightcol {
+    width: 100%;
+    flex: 1 0 10em;
+    margin: 0.5em;
+}
+
+#bottom-row {
+    text-align: center;
+}
+
+#bottom-footer {
+    max-height: 55px;
+    background-color: #013220;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
