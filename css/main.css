@@ -72,6 +72,8 @@ footer {
 
 #banner {
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 #top-header {
@@ -117,7 +119,13 @@ footer {
     background-color: #013220;
 }
 
+.copy-right {
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+}
+
 .icons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end width: 50%;
 }
