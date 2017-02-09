@@ -44,6 +44,10 @@ a:hover {
     max-width: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 p {
     font-family: "Lucida Sans Unicode", sans-serif;
     color: #A4A938;
@@ -64,10 +68,9 @@ footer {
 
 #content {
     /*background-color: #8C2F5E;*/
-    width: 100%;
     max-width: 940px;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0em;
 }
 
 #banner {
