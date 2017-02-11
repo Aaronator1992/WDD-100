@@ -18,7 +18,7 @@ nav ul {
 }
 
 nav a {
-    padding-left: 2em;
+    padding-left: 3em;
     text-decoration: none;
     color: #A4A938;
 }
@@ -34,7 +34,7 @@ a:hover {
 #logo {
     position: relative;
     float: left;
-    top: 20px;
+    top: 30px;
     left: 20px;
     background-color: white;
     border: 0.5em color red;
@@ -54,6 +54,7 @@ p {
 }
 
 h2 {
+    text-align: center;
     font-family: "Impact";
     line-height: 100%;
     color: #A4A938;
@@ -61,6 +62,7 @@ h2 {
 
 footer {
     max-height: 55px;
+    margin-top: 1em;
     background-color: #013220;
     padding: 1em;
     font-family: serif;
@@ -74,14 +76,14 @@ footer {
 }
 
 #banner {
-    width: 100%;
-    padding: 0;
+    max-width: 100%;
+    padding-bottom: 0;
     margin: 0;
 }
 
 #top-header {
     text-align: left;
-    padding-bottom: 0em;
+    padding: 0em;
 }
 
 #top-row {
@@ -89,8 +91,9 @@ footer {
     flex-flow: row wrap;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 1em;
-    text-align: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: left;
     align-items: center;
 }
 
@@ -110,7 +113,7 @@ footer {
 .rightcol {
     width: 100%;
     flex: 1 0 10em;
-    margin: 0.5em;
+    margin: 1em;
 }
 
 #bottom-row {
