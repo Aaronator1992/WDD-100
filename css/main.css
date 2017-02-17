@@ -37,7 +37,7 @@ a:hover {
     top: 30px;
     left: 20px;
     background-color: white;
-    border: 0.5em color red;
+    border: 0.5em color soild red;
 }
 
 .fullwidth {
@@ -70,13 +70,13 @@ footer {
 
 #content {
     /*background-color: #8C2F5E;*/
-    max-width: 940px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0em;
 }
 
 #banner {
-    max-width: 100%;
+    max-width: 1200px;
     padding-bottom: 0;
     margin: 0;
 }
@@ -111,9 +111,14 @@ footer {
 
 .leftcol,
 .rightcol {
-    width: 100%;
+    width: 200%;
     flex: 1 0 10em;
     margin: 1em;
+    justify-content: flex-start;
+}
+
+.rightcol {
+    text-decoration-color: #013220;
 }
 
 #bottom-row {
@@ -134,4 +139,100 @@ footer {
 .icons {
     display: flex;
     justify-content: flex-end width: 50%;
+}
+
+
+/* rates page*/
+
+.content {
+    display: flex;
+}
+
+h3 {
+    padding-left: 10em;
+    color: #A4A938;
+}
+
+#top {
+    height: 2em;
+    background-color: #A4A938;
+}
+
+.rightcoll .grand {
+    max-width: 400px;
+    padding-top: 6em;
+    padding-right: 1em;
+}
+
+.leftcoll .parag {
+    padding: 2em;
+    color: #A4A938;
+    max-width: 75%;
+}
+
+#middle-row-rates {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #013220;
+    padding: 1em;
+    text-align: left;
+    align-items: center;
+}
+
+#bottom {
+    top: 0px;
+    height: 2em;
+    background-color: #A4A938;
+}
+
+.icons {
+    padding: 1em;
+    background-color: #013220;
+}
+
+
+/***************/
+
+
+/* Rivers Page */
+
+
+/***************/
+
+#top {
+    height: 2em;
+    background-color: #A4A938;
+}
+
+#middle {
+    margin: 0em;
+    display: flex;
+    justify-content: row;
+    align-items: top;
+}
+
+.grand,
+.gray,
+.Fork {
+    font-family: 'Sofia';
+    font-size: 22px;
+    color: #A4A938;
+    top: -70px;
+    left: 0px;
+    align-content: row;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    float: center;
+}
+
+.leftcol,
+.midcol,
+.rightcol {
+    max-width: 30%;
+    min-width: 30%;
+    padding: 10px;
+    margin-top: 0px;
 }
